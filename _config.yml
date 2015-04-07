@@ -1,0 +1,40 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  Research: /research
+  Links: /links
+  About: /about
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- recent_posts
+- category
+- tagcloud
+- archive
+thumbnail: false
+
+# Contacts
+contacts:
+  github: http://github.com/quxiaofeng
+  twitter: http://twitter.com/quxiaofeng
+  facebook: http://facebook.com/quxiaofeng
+  dribbble: http://dribbble.com/quxiaofeng
+  rss: /atom.xml
+
+# Links
+links:
+  Hexo: http://hexo.io
+
+# Miscellaneous
+google_analytics:
+favicon: css/images/favicon.png
+twitter: http://twitter.com/quxiaofeng
+google_plus:
+fb_admins:
+fb_app_id:
