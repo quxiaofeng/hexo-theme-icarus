@@ -34,7 +34,7 @@ links:
 
 # Miscellaneous
 google_analytics:
-favicon: css/images/favicon.png
+favicon: /css/images/favicon.png
 twitter: http://twitter.com/quxiaofeng
 google_plus:
 fb_admins:
