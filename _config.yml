@@ -15,9 +15,10 @@ sidebar: right
 widgets:
 - recent_posts
 - category
+- tags: false
 - tagcloud
 - archive
-thumbnail: false
+thumbnail: true
 
 # Contacts
 contacts:
