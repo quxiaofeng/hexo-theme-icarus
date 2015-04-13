@@ -26,7 +26,10 @@ contacts:
   github: http://github.com/quxiaofeng
   twitter: http://twitter.com/quxiaofeng
   facebook: http://facebook.com/quxiaofeng
-  dribbble: http://dribbble.com/quxiaofeng
+  # dribbble: http://dribbble.com/quxiaofeng
+  zhihu: http://www.zhihu.com/people/quxiaofeng
+  douban: http://www.douban.com/people/gBlueBird
+  weibo: http://www.weibo.com/quxiaofeng
   rss: /atom.xml
 
 # Links
