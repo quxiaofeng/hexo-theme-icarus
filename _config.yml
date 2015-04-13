@@ -1,3 +1,11 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  Research: /research
+  Links: /links
+  About: /about
+
 
 # Content
 excerpt_link: Read More
