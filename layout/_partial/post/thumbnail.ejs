@@ -6,8 +6,8 @@
       s = post.thumbnail;
     }else if (post.banner){
       s = post.banner;
-    }else if (post.photos){
-      s = post.photos.first;
+    }else if (post.photos && post.photos.length){
+      s = post.photos[0];
     }else{
       var img=/\<img\s.*?\s?src\s*=\s*['|"]?([^\s'"]+).*?\>/ig;
       var result = post.content.match(img);
