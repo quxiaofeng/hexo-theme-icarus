@@ -15,11 +15,11 @@ fancybox: true
 profile: false # whether to show profile bar
 
 # Sidebar
-sidebar: bottom
+sidebar: right
 widgets:
 - recent_posts
 - category
-- tag
+- tag: false
 - tagcloud
 - archive
 thumbnail: true
