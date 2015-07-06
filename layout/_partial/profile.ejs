@@ -17,14 +17,16 @@
         <span><%= (site.tags.length > 1?__('profile.tags'):__('profile.tag')) %></span>
       </div>
     </div>
+    <% if(theme.contacts) { %>
     <div class="contact-info profile-block">
       <table class="contact-list">
         <tr>
         <% for(var i in theme.contacts) { %>
-          <td><a href="<%- url_for(theme.contacts[i]) %>" title="<%= i %>"><i class="fa fa-<%= i %>"></i></a></td>
+          <td><a href="<%- url_for(theme.contacts[i]) %>" target="_blank" title="<%= i %>"><i class="fa fa-<%= i %>"></i></a></td>
         <% } %>
         </tr>
       </table>
     </div>
+    <% } %>
   </div>
 </aside>
