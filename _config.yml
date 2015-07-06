@@ -1,22 +1,25 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
-  Research: /research
-  Links: /links
-  About: /about
+  Home: .
+  Archives: archives
+  Research: research
+  Links: links
+  About: about
 
 
 # Content
 excerpt_link: Read More
 fancybox: true
 
+# Profile
+profile: false # whether to show profile bar
+
 # Sidebar
 sidebar: right
 widgets:
 - recent_posts
 - category
-- tags: false
+- tag
 - tagcloud
 - archive
 thumbnail: true
@@ -30,7 +33,7 @@ contacts:
   # dribbble: http://dribbble.com/quxiaofeng
   zhihu: http://www.zhihu.com/people/quxiaofeng
   douban: http://www.douban.com/people/gBlueBird
-  # rss: /atom.xml
+  rss: atom.xml
 
 # Links
 links:
@@ -38,7 +41,7 @@ links:
 
 # Miscellaneous
 google_analytics: UA-50831338-1
-favicon: /css/images/favicon.png
+favicon: images/favicon.png
 twitter: http://twitter.com/quxiaofeng
 google_plus:
 fb_admins:
